@@ -2,7 +2,7 @@ FROM composer:2.3 AS composer
 
 FROM php:8.1.14-fpm-alpine
 
-ENV PROTOC_VERSION=3.19.4
+ENV PROTOC_VERSION=3.21.12
 
 # install pecl libraries
 RUN set -eux && \
